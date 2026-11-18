@@ -16,7 +16,6 @@ BalatroTrainer.Gui.exe  --LoadLibraryW injection-->  Balatro.exe
 ```
 
 * The pipe only accepts a fixed whitelist of command names plus one integer. No Lua travels over it.
-* The pipe rejects remote clients. There is no network code.
 * Commands only run while you are inside a run; otherwise the log says so.
 
 ## Build (Windows, x64)
